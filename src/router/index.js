@@ -8,7 +8,7 @@ import Role from '@/components/right/Role'
 import Param from '@/components/product/Param'
 import Category from '@/components/product/Category'
 import Product from '@/components/product/TreeGrid'
-import Order from '@/components/order/Order'
+// import Order from '@/components/order/Order'
 import Report from '@/components/report/Report'
 
 Vue.use(Router)
@@ -28,7 +28,7 @@ export default new Router({
         { path: '/param', component: Param },
         { path: '/category', component: Category },
         { path: '/product', component: Product },
-        { path: '/order', component: Order },
+        // { path: '/order', component: Order },
         { path: '/report', component: Report }
       ]
     }
